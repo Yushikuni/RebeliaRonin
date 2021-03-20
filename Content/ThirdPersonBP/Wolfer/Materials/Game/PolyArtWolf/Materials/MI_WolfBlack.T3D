@@ -1,0 +1,19 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_WolfBlack"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=222DCD524C0D51EBB2E7C18D46B113EE
+   Parent=Material'"/Game/PolyArtWolf/Materials/Mat_Ground.Mat_Ground"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Metallic"),ParameterValue=0.183486,ExpressionGUID=5858E59A41D3D9A65B31449B4B19D2CA)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Roughness"),ParameterValue=0.688073,ExpressionGUID=0C0E5AFC42AD0272A9747CAE8AE83CE8)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Specular"),ExpressionGUID=DEAB91824B694BB26F1D67993A14ACB2)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000),ExpressionGUID=9D92B5E24E0B6A09817DDAACF9DA7536)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Diffuse"),ParameterValue=Texture2D'"/Game/PolyArtWolf/Textures/T_Wolf_Black.T_Wolf_Black"',ExpressionGUID=6E689C0B4B0959AB24E042B448C62C43)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=C072166C4A0C006DB7FE6FB8DA6C414A
+   CachedReferencedTextures(0)=Texture2D'"/Game/PolyArtWolf/Textures/T_WhiteTexture.T_WhiteTexture"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=2F50120A42CC7FAA922F87880E5D0F4C
+End Object

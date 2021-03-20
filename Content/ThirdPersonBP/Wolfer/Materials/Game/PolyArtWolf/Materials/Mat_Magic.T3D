@@ -1,0 +1,105 @@
+Begin Object Class=/Script/Engine.Material Name="Mat_Magic"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionVectorParameter'"Mat_Magic:MaterialExpressionVectorParameter_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionScalarParameter'"Mat_Magic:MaterialExpressionScalarParameter_9"')
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=44219D36425D88785E1CD1A348D73DBA
+      Material=Material'"Mat_Magic"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Metallic"
+      ExpressionGUID=5858E59A41D3D9A65B31449B4B19D2CA
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=5269F115480FA63E59A21E95CF306546
+      Material=Material'"Mat_Magic"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Specular"
+      ExpressionGUID=DEAB91824B694BB26F1D67993A14ACB2
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=5269F115480FA63E59A21E95CF306546
+      Material=Material'"Mat_Magic"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=0.344036
+      SliderMax=1.000000
+      ParameterName="Roughness"
+      ExpressionGUID=0C0E5AFC42AD0272A9747CAE8AE83CE8
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=5269F115480FA63E59A21E95CF306546
+      Material=Material'"Mat_Magic"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      DefaultValue=1.000000
+      SliderMax=500.000000
+      ParameterName="Emission"
+      ExpressionGUID=3683AD4046ADFC0FC4580789F1E84AFD
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=5269F115480FA63E59A21E95CF306546
+      Material=Material'"Mat_Magic"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=1.000000,G=0.641517,B=0.000000,A=0.000000)
+      ParameterName="Color"
+      ExpressionGUID=9D92B5E24E0B6A09817DDAACF9DA7536
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=AFE1AB0D44DD8BC375977D901C85D711
+      Material=Material'"Mat_Magic"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=1.000000,G=0.641517,B=0.000000,A=0.000000)
+      ParameterName="EmissiveColor"
+      ExpressionGUID=2ABB0AD44B3B51C3600E929C354AA6CA
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=AFE1AB0D44DD8BC375977D901C85D711
+      Material=Material'"Mat_Magic"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"')
+   Specular=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   bUsedWithSkeletalMesh=True
+   bUsedWithMorphTargets=True
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"'
+   Expressions(4)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(5)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_3"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=18E889C443485126F3736FAD66E291E2
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(440574345582452634,3078550227877033723,3929274268584483569,8531576542845274433),ParameterInfos=((Name="Roughness"),(Name="Metallic"),(Name="Specular"),(Name="Emission")),ExpressionGuids=(0C0E5AFC42AD0272A9747CAE8AE83CE8,5858E59A41D3D9A65B31449B4B19D2CA,DEAB91824B694BB26F1D67993A14ACB2,3683AD4046ADFC0FC4580789F1E84AFD),Overrides=(False,False,False,False)),Entries[1]=(NameHashes=(2236351998331959773,12279385124011487613),ParameterInfos=((Name="EmissiveColor"),(Name="Color")),ExpressionGuids=(2ABB0AD44B3B51C3600E929C354AA6CA,9D92B5E24E0B6A09817DDAACF9DA7536),Overrides=(False,False)),ScalarValues=(0.344036,0.500000,0.500000,1.000000),VectorValues=((R=1.000000,G=0.641517,B=0.000000,A=0.000000),(R=1.000000,G=0.641517,B=0.000000,A=0.000000)),ScalarMinMaxValues=((X=0.000000,Y=1.000000),(X=0.000000,Y=1.000000),(X=0.000000,Y=1.000000),(X=0.000000,Y=500.000000)),ScalarCurveValues=(None,None,None,None),ScalarCurveAtlasValues=(None,None,None,None),VectorChannelNameValues=((),()),VectorUsedAsChannelMaskValues=(False,False)),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=42DBC32043AD71744CA26E844806EDB6
+End Object
