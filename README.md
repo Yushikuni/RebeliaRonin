@@ -1,21 +1,31 @@
 # Rebelia Ronin
 
-
 ![GameName](https://user-images.githubusercontent.com/42646031/151656394-9755f47b-04e7-4923-ac37-58f2bd688dea.png)
 
-Obhájeno na známku 2 
+Hra vypráví příběh o bezejmenném hrdinovi, který má za úkol zneškodnit systém Sibyl, který byl vybodován na podporu lidstva. Aby pomáhal s každodeními úkoly ale nějak se to zvrtlo... - [Úvod](#Intro)
 
-Developed with Unreal Engine 4
+Hra obsahuje prvky FPS hry s inspirací Já, Robot, COD a WoW prvků -  [Bližší info tu](#Popis)
 
-**Úvod do hry**
+Tento projekt byl vyvýjen na verzi UE4.18 s Blueprinty (visuální scriptování) a byl obhájen na známku 2
+
+🎓 Maturitní projekt
+Tato hra byla navržena a vyvinuta v rámci maturitní práce, s cílem prokázat dovednosti v oblasti herního vývoje, grafického designu a programování. Zaměřuje se na technické aspekty herního vývoje i kreativní návrh herního prostředí.
+
+🛠️ Funkcionalita hry
+- Střelba: Pro lepší míření stiskni pravé tlačítko myši
+- Systém questů: Jak jinak vyprávět přéběh?
+- One Shoot one kill no luck all skill: Bosové tě zabijou na jednu ránu a ani nevíš odkud ti jedna přiletí
+
+
+## Intro
 
 Lidé zlenivěli, vytvořili stroje, aby jim pomohli vpráci, ale to bylo málo, a tak naučili stroje vytvářet další stroje. A to byl pouze začátek. Potom jim svěřili ochranu přírody, letectví a za pár let i bezpečnost. Senátoři uklidňovali prostý lid, že je to tak bezpečné. Za několik dekád obyvatel Země se zredukoval o setiny procent. Za století to již byla polovina celé Země. Roboti redukovali obyvatelé několika způsoby, hlavně pro výzkum a vývoj. Lidé měli schopnost přirozené reakce, kterou roboti mohli stěží simulovat,a tak je drželi vtáborech, mnoho znich se ale mučení nedožilo, zemřeli na následek nedostatku potravin a pitné vody. Ti,co přežili, by si přáli, aby zemřeli. Pro-váděli na nich výzkum přirozené reakce. Dokonce je i svařovali a dávali si otázky, proč to nejde svařit?proč to teče? co je to? ...
 
 Byla to léta ještě před vzpourou, ale někdo se „prokecl“. Roboti je našli dříve, než to  mohlo  vypuknout.  Nicméně  pár  lidí  se  dohodlo  mezi  sebou  a  vyvolali  první vzpouru. Kdy roboti neznali pojem rychlo−pulzní zbraň. Stalo se to, že po vzpouře si roboti uvědomili, jak jsou zranitelní a jeden znich si vzal zbraň a vystřelil, lidé se dali na útěk, Sibyl vydala rozkaz, aby si vzali zbraň, roboti poslechli, vzali zbraně... stří-leli. Násilí utichlo, až se přeživší schovali do hor. Po několika letech, kdy našli staré zásoby zbraní zdob, kdy pouze lidé zabíjeli lidé. A losovalo se, kdo půjde sejmout ty bastardy. „Los vyšel na tebe, tak jdi...“.
 
-**Hra obsahuje následující prvky**
+## Popis
 
-***Systém questů***
+### Systém questů
 
 Systém questů je nepovinný, inspirace byla ze hry World of Warcraft. Jako programový jazyk byl zde využit BluePrint. NCP postavy byly již součástí enginu, jako je manekýn. 
 Pokud si odmyslíte barvu. Nebo jsou součástí Esset free, které Epic Games nabízí zdarma kvyužití spolu s animacemi. Ve projektu byly využity assety právě kombinací manekýna, free assetů (těch permanentních) a free mounth assetů, které Epic Games nabízí každý měsíc.
@@ -54,9 +64,9 @@ Patrola, ta je tam aby demonstrovala volný pohyb po videoherním plánu.
 
 
 
-***Bosové***
+### Bosové
 
-****Samurai****
+#### Samurai
 
 Ve hře se vyskytují dva bossové, a jsou to: Samurai:Humanoid, který slouží Sibyl. Ve hře je to paragon Kwang. 
 Má několik útoků mečem, který je náhodný, leč vražedný, zabije Vás na jednu ránu.
@@ -66,7 +76,7 @@ Má několik útoků mečem, který je náhodný, leč vražedný, zabije Vás n
 ![image](https://user-images.githubusercontent.com/42646031/111865500-aeaad480-8967-11eb-9409-84fc774d4ed8.png)
 
 
-****Sibyl****
+#### Sibyl
 
 Robotická inteligence, která hráče zabije opětna jednu ránu. Má zatím jeden útok. Ve hře je Sibyl paragon Muriel.
 
@@ -76,7 +86,7 @@ Robotická inteligence, která hráče zabije opětna jednu ránu. Má zatím je
 
 
 
-***Hlavní menu & Pause menu***
+### Hlavní menu & Pause menu
 
 Po intru, které je součástí hry, se hráč objeví vhlavním menu, kde je na výběr. „New Game“, „Options“, „Quit game“. Kde při výběru Options, si může upravit rozlišení. Hudba v Hlavním menu je od interpreta The Enigma TNG, a nese název: Xaeta-coreHudba vPause menu je od stejného interpreta, a nese název: The Falling Star
 
@@ -87,7 +97,7 @@ Po stisknutí klávesy „ESC“ se objeví Pause menu, které pozastaví časom
 ![image](https://user-images.githubusercontent.com/42646031/111865414-16aceb00-8967-11eb-9844-be28d3d5700c.png)
 
 
-***Leading, Death Win screens***
+### Leading, Death Win screens
 
 Loading screen slouží ktomu, aby se zaplnilo černé místo mezi přestupy mezi levely hry. Zároveň je zde i možnost vidět UDMG, které je hojně používáno právě na tyto obrázky, kvůlidynamice.
 
@@ -101,7 +111,7 @@ Tento Win screen je výsledek práce ve Photoshopod Adobe. A autorem tohoto obr�
 
 ![image](https://user-images.githubusercontent.com/42646031/111865294-84a4e280-8966-11eb-85f0-2eef90fa9e2a.png)
 
-***FPS prvky***
+### FPS prvky
 Hra je vžánru FPS, Firstperson shooter a má následují prvky:
 - Přebíjení zbraní
 - Switch zbraní
