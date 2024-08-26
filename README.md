@@ -16,6 +16,16 @@ Tato hra byla navržena a vyvinuta v rámci maturitní práce, s cílem prokáza
 - Systém questů: Jak jinak vyprávět přéběh?
 - One Shoot one kill no luck all skill: Bosové tě zabijou na jednu ránu a ani nevíš odkud ti jedna přiletí
 
+🎮 Jak hrát?
+- Pohyb: WSAD střelba LMB a míření RMB
+- Interakce: E nebo LMB
+- Quest Log: Stiskni TABulátor
+
+🛠️ Použité technologie
+- Programovací / Scriptovací jazyk: Blueprint
+- Grafika: Virtus, Mixamo, Grafická práce <a href="https://www.linkedin.com/in/sabina-malenov%C3%A1/" alt="LinkedInSabčaMalenova">Sabiny Malenové</a>
+- Herní engine: Unreal Engine 4.18
+
 
 ## Intro
 
