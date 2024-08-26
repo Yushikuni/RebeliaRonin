@@ -6,7 +6,7 @@ Hra vypráví příběh o bezejmenném hrdinovi, který má za úkol zneškodnit
 
 Hra obsahuje prvky FPS hry s inspirací Já, Robot, COD a WoW prvků -  [Bližší info tu](#Popis)
 
-Tento projekt byl vyvýjen na verzi UE4.18 s Blueprinty (visuální scriptování) a byl obhájen na známku 2
+Tento projekt byl obhájen na známku 2
 
 🎓 Maturitní projekt
 Tato hra byla navržena a vyvinuta v rámci maturitní práce, s cílem prokázat dovednosti v oblasti herního vývoje, grafického designu a programování. Zaměřuje se na technické aspekty herního vývoje i kreativní návrh herního prostředí.
@@ -26,6 +26,10 @@ Tato hra byla navržena a vyvinuta v rámci maturitní práce, s cílem prokáza
 - Grafika: Virtus, Mixamo, Grafická práce <a href="https://www.linkedin.com/in/sabina-malenov%C3%A1/" alt="LinkedInSabčaMalenova">Sabiny Malenové</a>
 - Herní engine: Unreal Engine 4.18
 
+✨ Autor
+[Květuše Husáková](https://github.com/Yushikuni) – Student(ka) [Střední průmyslové školy v Třebíči](https://www.spst.cz/)
+
+Tento projekt byl vytvořen v rámci maturitní práce v roce [2019].
 
 ## Intro
 
