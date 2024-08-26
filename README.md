@@ -27,9 +27,9 @@ Tato hra byla navržena a vyvinuta v rámci maturitní práce, s cílem prokáza
 - Herní engine: Unreal Engine 4.18
 
 ✨ Autor
-[Květuše Husáková](https://github.com/Yushikuni) – Student(ka) [Střední průmyslové školy v Třebíči](https://www.spst.cz/)
-
-Tento projekt byl vytvořen v rámci maturitní práce v roce [2019].
+- [Květuše Husáková](https://github.com/Yushikuni) – Student(ka) [Střední průmyslové školy v Třebíči](https://www.spst.cz/)
+- [Sabina Malenová](https://www.linkedin.com/in/sabina-malenov%C3%A1/") – Student(ka), Grafička [Střední průmyslové školy v Třebíči](https://www.spst.cz/)
+- Tento projekt byl vytvořen v rámci maturitní práce v roce [2019].
 
 ## Intro
 
